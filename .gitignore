@@ -13,3 +13,4 @@ __pycache__/
 .Python
 *.log
 kyobo_reviews.csv
+.DS_Store
