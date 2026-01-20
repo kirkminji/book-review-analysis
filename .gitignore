@@ -12,7 +12,24 @@ __pycache__/
 *.pyd
 .Python
 *.log
-kyobo_reviews.csv
-analysis/correlation/news_2025_categorized.csv
+
+# Data and Analysis files
+*.csv
+!analysis/weekly_news_viral_index.csv
 *.csv.bak
+*.png
+analysis/correlation/news_2025_categorized.csv
+
+# SQL files
+*.sql
+
+# JavaScript / Node
+node_modules/
+package-lock.json
+yarn.lock
+bun.lock
+
+# IDE / System
 .DS_Store
+.vscode/
+.idea/
