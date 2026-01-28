@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1,AUC-ROC
+XGBoost,0.7531,0.3918,0.4337,0.4117,0.6033
+LightGBM,0.6809,0.2867,0.4045,0.3356,0.5432
+Random Forest,0.8066,0.5474,0.1683,0.2574,0.5779
+Gradient Boosting,0.804,0.5263,0.1618,0.2475,0.5029
+Logistic Regression,0.766,0.2353,0.0777,0.1168,0.5247

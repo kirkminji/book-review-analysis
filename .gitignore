@@ -14,12 +14,12 @@ __pycache__/
 *.log
 
 # Data and Analysis files
-*.csv
 !analysis/weekly_news_viral_index.csv
 !analysis/weekly_bestseller_scores.csv
 *.csv.bak
 *.png
 analysis/correlation/news_2025_categorized.csv
+my_prophet/
 
 # SQL files
 *.sql
