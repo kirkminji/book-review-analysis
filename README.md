@@ -92,9 +92,11 @@ book-review-analysis/
 
 ---
 
-## 사용 기술
+## 사용 기술 및 데이터 관리
 
-Python 3.13 | LightGBM, XGBoost, scikit-learn | Prophet | SHAP | matplotlib, plotly | Supabase
+- **기술 스택**: Python 3.13 | LightGBM, XGBoost, scikit-learn | Prophet | SHAP | matplotlib, plotly
+- **데이터베이스**: **Supabase (PostgreSQL)** 인프라를 활용하여 원천 데이터를 관리했습니다.
+- **데이터 보안**: 외부 접근 보안 정책에 따라 DB 직접 연결 대신, 필요한 데이터를 안전하게 추출(Extract)하여 프로젝트 내 `.csv` 파일 형태로 포함시켰습니다.
 
 ---
 
